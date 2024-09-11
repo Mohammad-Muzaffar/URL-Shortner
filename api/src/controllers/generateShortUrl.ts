@@ -1,6 +1,6 @@
 import { nanoid } from "nanoid";
 import express from 'express';
-import { urlBody } from '../utils/urlZodSchema';
+import { urlBody } from '@muzaffarshaikh/url-shortner-common';
 import Status from "../utils/statusCode";
 import { PrismaClient } from "@prisma/client";
 import { withAccelerate } from '@prisma/extension-accelerate';

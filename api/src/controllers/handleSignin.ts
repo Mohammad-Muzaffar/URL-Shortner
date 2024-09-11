@@ -1,7 +1,7 @@
 import express from 'express';
 import { PrismaClient } from "@prisma/client";
 import { withAccelerate } from '@prisma/extension-accelerate'
-import { signinBody } from '../utils/userZodSchema';
+import { signinBody } from '@muzaffarshaikh/url-shortner-common';
 import Status from '../utils/statusCode';
 import { POOL } from '../config';
 import bcrypt from 'bcrypt';
