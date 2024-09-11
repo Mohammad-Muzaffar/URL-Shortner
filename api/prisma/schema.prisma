@@ -23,7 +23,7 @@ model User {
 
 model Urls {
   id           String   @id @default(uuid(7)) @unique
-  redirectUrl  String   
+  longUrl      String   
   shortUrl     String   @unique
   creationDate DateTime 
   published    Boolean  @default(true)
