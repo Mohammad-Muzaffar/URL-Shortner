@@ -41,7 +41,7 @@ export const handleGenerateNewShorturl = async (req: express.Request, res: expre
         }
 
         // Get the base URL from the request's origin
-        const baseUrl = req.get('origin') || 'http://localhost:3000'; // Fallback URL for local development
+        const baseUrl = "https://url-shortner-backend-bv76.onrender.com"; // Fallback URL for local development
 
         // Generate the full short URL
         const shortURL = `${baseUrl}/${shortId}`;
